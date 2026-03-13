@@ -1,0 +1,12 @@
+# History and workspace
+.Rhistory
+.RData
+.Ruserdata
+
+# Ignore raw data files to prevent huge uploads
+data/*.seq
+data/*.seq.gz
+# We will allow the .rds files so the app works out of the box, or maybe ignore them? behavior_data.rds is 12MB. That fits well within GitHub's 100MB limit.
+
+# Mac OS auto-generated files
+.DS_Store
