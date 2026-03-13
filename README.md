@@ -4,6 +4,9 @@ Intelligent Customer Behavior Analytics for UX Optimization and Security Risk De
 This R project processes the MSNBC Anonymous Web Dataset containing approx 989,818 user sessions, extracts behavioral features, models a UX Friction Score, generates User Segments using K-Means clustering, and detects Security Anomalies with an Isolation Forest.
 
 The final output is an interactive Shiny application.
+# UI LINK
+http://127.0.0.1:3838/
+
 
 ## Quick Start
 
