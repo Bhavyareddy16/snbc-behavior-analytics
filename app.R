@@ -4,9 +4,9 @@ library(ggplot2)
 library(dplyr)
 library(DT)
 
-if (file.exists("data/behavior_data.rds") && file.exists("data/confusing_pages.rds")) {
+if (file.exists("data/behavior_data.rds") && file.exists("data/confusing_pages.csv")) {
   behavior_data <- readRDS("data/behavior_data.rds")
-  confusing_pages <- readRDS("data/confusing_pages.rds")
+  confusing_pages <- read.csv("data/confusing_pages.csv", stringsAsFactors = FALSE)
 } else {
   stop("Processed data not found! Please run data_prep.R first.")
 }
